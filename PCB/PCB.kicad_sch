@@ -1,5 +1,21 @@
-(kicad_sch (version 20250114) (generator "eeschema") (generator_version "9.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0da9c021-1e1e-4699-b3a6-31bc4dd13bc3")
+	(paper "A4")
+	(title_block
+		(title "Power Board")
+		(date "2025-03-12")
+		(company "University of Cape Town")
+		(comment 1 "Amos Manganye MNGAMO004")
+		(comment 2 "Nyakallo Peete PTXNYA001")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
