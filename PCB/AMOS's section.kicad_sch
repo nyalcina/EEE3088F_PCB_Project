@@ -4,6 +4,7 @@
 	(generator_version "9.0")
 	(uuid "da6080dd-2ec1-411a-9770-48a1fd2f9668")
 	(paper "A4")
+<<<<<<< Updated upstream
 	(lib_symbols
 		(symbol "Battery_Management:TP4056-42-ESOP8"
 			(exclude_from_sim no)
@@ -7488,4 +7489,7 @@
 			)
 		)
 	)
+=======
+	(lib_symbols)
+>>>>>>> Stashed changes
 )
