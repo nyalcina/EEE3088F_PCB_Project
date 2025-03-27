@@ -2285,191 +2285,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LED_Small"
-				(at -4.445 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pin" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED_Small_Filled"
 			(pin_numbers
 				(hide yes)
@@ -3301,12 +3116,6 @@
 		(color 0 0 0 0)
 		(uuid "d6efd35e-5f7b-4c1f-a6c3-1c6a9b6855fb")
 	)
-	(junction
-		(at 29.21 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff8e92a7-7c94-4c5f-b642-8ebc00da8462")
-	)
 	(wire
 		(pts
 			(xy 52.07 67.31) (xy 52.07 68.58)
@@ -3326,16 +3135,6 @@
 			(type default)
 		)
 		(uuid "04cd929c-2c0e-49e7-95ff-70edd2222516")
-	)
-	(wire
-		(pts
-			(xy 22.86 48.26) (xy 22.86 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05ae0ec2-0b1c-46ea-b303-8ff3ba04a047")
 	)
 	(wire
 		(pts
@@ -3429,16 +3228,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 57.15) (xy 41.91 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38548557-28dd-4f77-819e-96154b8450d2")
-	)
-	(wire
-		(pts
 			(xy 82.55 167.64) (xy 99.06 167.64)
 		)
 		(stroke
@@ -3459,7 +3248,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 48.26) (xy 29.21 35.56)
+			(xy 30.48 41.91) (xy 30.48 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3526,6 +3315,16 @@
 			(type default)
 		)
 		(uuid "4ccfe65b-eff1-48b4-b032-6b5908ce172c")
+	)
+	(wire
+		(pts
+			(xy 30.48 46.99) (xy 30.48 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5b49b9-ca6b-419f-8ccf-7c1a7e94f4f0")
 	)
 	(wire
 		(pts
@@ -3599,17 +3398,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 58.42) (xy 41.91 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "770a0437-bc6a-45a4-ba45-be176075e43b")
-	)
-	(wire
-		(pts
-			(xy 227.33 39.37) (xy 227.33 45.72)
+			(xy 227.33 35.56) (xy 227.33 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3626,16 +3415,6 @@
 			(type default)
 		)
 		(uuid "802c3532-7e59-4abc-a718-696c8ec7bb55")
-	)
-	(wire
-		(pts
-			(xy 22.86 53.34) (xy 22.86 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80e8362c-c41b-48fd-9892-55cee0ecc60e")
 	)
 	(wire
 		(pts
@@ -3699,16 +3478,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 35.56) (xy 29.21 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "935b262f-4fd3-4411-89ca-ac3afcc1982d")
-	)
-	(wire
-		(pts
 			(xy 71.12 76.2) (xy 71.12 74.93)
 		)
 		(stroke
@@ -3726,16 +3495,6 @@
 			(type default)
 		)
 		(uuid "937ab4da-2a90-40c6-a92b-654c823794b5")
-	)
-	(wire
-		(pts
-			(xy 29.21 53.34) (xy 34.29 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "956e4a97-9c5f-4fb1-9a42-550a15c6dba4")
 	)
 	(wire
 		(pts
@@ -3799,7 +3558,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 35.56) (xy 40.64 35.56)
+			(xy 30.48 35.56) (xy 40.64 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3826,6 +3585,16 @@
 			(type default)
 		)
 		(uuid "b97d0754-b140-472e-b713-553a7fd59e99")
+	)
+	(wire
+		(pts
+			(xy 30.48 53.34) (xy 34.29 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba76cef5-1b8e-4231-a3ba-af59fe37d68f")
 	)
 	(wire
 		(pts
@@ -3906,16 +3675,6 @@
 			(type default)
 		)
 		(uuid "efc5be2c-9ce4-446a-9bfb-f4abec0bb023")
-	)
-	(wire
-		(pts
-			(xy 22.86 58.42) (xy 34.29 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0c27fa8-9528-4711-a3bb-254cbda97ad0")
 	)
 	(wire
 		(pts
@@ -4058,7 +3817,7 @@
 		(uuid "e1234cd5-229b-45c2-a65e-eda670ac0f9a")
 	)
 	(label "VBUS"
-		(at 227.33 39.37 0)
+		(at 227.33 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4909,7 +4668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias"
+		(property "Footprint" "Nhlamolo.:ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-1"
 			(at 52.578 77.47 0)
 			(effects
 				(font
@@ -4929,6 +4688,15 @@
 		)
 		(property "Description" "1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"
 			(at 52.578 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16581"
+			(at 52.07 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,7 +4767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Nhlamolo.:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
 			(at 86.995 83.185 0)
 			(effects
 				(font
@@ -5021,6 +4789,15 @@
 		)
 		(property "Description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SOT-23-6"
 			(at 73.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C128405"
+			(at 73.66 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5146,7 +4923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Nhlamolo.:C1206"
 			(at 238.76 45.72 0)
 			(effects
 				(font
@@ -5155,7 +4932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707343598243840"
 			(at 238.76 45.72 0)
 			(effects
 				(font
@@ -5166,6 +4943,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 238.76 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C1848"
+			(at 238.76 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A"
+		(property "Footprint" "Nhlamolo.:USB-C-SMD_TYPE-602-T3"
 			(at 213.36 58.42 0)
 			(effects
 				(font
@@ -5223,7 +5009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589784804343648256"
 			(at 209.55 60.96 0)
 			(effects
 				(font
@@ -5233,6 +5019,15 @@
 			)
 		)
 		(property "Description" "USB Power-Only 6P Type-C Receptacle connector"
+			(at 209.55 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C2927028"
 			(at 209.55 60.96 0)
 			(effects
 				(font
@@ -5299,7 +5094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm"
+		(property "Footprint" "Nhlamolo.:ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP"
 			(at 245.11 83.82 0)
 			(effects
 				(font
@@ -5308,7 +5103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.wch.cn/downloads/file/301.html"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893165608296448"
 			(at 245.11 45.72 0)
 			(effects
 				(font
@@ -5318,6 +5113,15 @@
 			)
 		)
 		(property "Description" "100W USB Type-C PD3.0/2.0, BC1.2 Sink Controller, SSOP-10"
+			(at 245.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C970725"
 			(at 245.11 59.69 0)
 			(effects
 				(font
@@ -5393,7 +5197,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Nhlamolo.:LED0603-RD"
 			(at 36.83 53.34 90)
 			(effects
 				(font
@@ -5402,7 +5206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8550723991833485312"
 			(at 36.83 53.34 90)
 			(effects
 				(font
@@ -5421,6 +5225,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 36.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
 			(at 36.83 53.34 0)
 			(effects
 				(font
@@ -5472,7 +5285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Nhlamolo.:R0603"
 			(at 78.74 64.77 0)
 			(effects
 				(font
@@ -5481,7 +5294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706147000926208"
 			(at 78.74 64.77 0)
 			(effects
 				(font
@@ -5491,6 +5304,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 78.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C4177"
 			(at 78.74 64.77 0)
 			(effects
 				(font
@@ -5608,7 +5430,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Nhlamolo.:R0805"
 			(at 245.11 44.45 0)
 			(effects
 				(font
@@ -5617,7 +5439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8562006748401074176"
 			(at 245.11 44.45 0)
 			(effects
 				(font
@@ -5627,6 +5449,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 245.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C17414"
 			(at 245.11 44.45 0)
 			(effects
 				(font
@@ -6140,77 +5971,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 22.86 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a6be73b-934c-4fa5-92d3-dfc06441b171")
-		(property "Reference" "R8"
-			(at 25.4 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 25.4 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 22.86 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "378a4fa8-2829-4eee-aa46-9bb30c6c7262")
-		)
-		(pin "1"
-			(uuid "1c449015-8fde-4608-a6cf-fa3976f8e13d")
-		)
-		(instances
-			(project "PCB"
-				(path "/0da9c021-1e1e-4699-b3a6-31bc4dd13bc3/e8735eb0-c533-47ac-8578-e0e86fdb4837"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 29.21 50.8 0)
+		(at 30.48 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6219,7 +5980,7 @@
 		(fields_autoplaced yes)
 		(uuid "a468d268-934f-41f6-9a2c-1fd739ca330b")
 		(property "Reference" "R1"
-			(at 31.75 49.5299 0)
+			(at 33.02 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +5989,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 31.75 52.0699 0)
+			(at 33.02 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,8 +5997,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 29.21 50.8 0)
+		(property "Footprint" "Nhlamolo.:R0402"
+			(at 30.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,8 +6006,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 29.21 50.8 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705924167974912"
+			(at 30.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6255,7 +6016,16 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 29.21 50.8 0)
+			(at 30.48 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 30.48 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6364,7 +6134,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k5"
+		(property "Value" "5k6"
 			(at 65.278 65.786 0)
 			(effects
 				(font
@@ -6373,7 +6143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Nhlamolo.:R0805"
 			(at 67.31 64.77 0)
 			(effects
 				(font
@@ -6382,7 +6152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706617560436736"
 			(at 67.31 64.77 0)
 			(effects
 				(font
@@ -6392,6 +6162,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C4382"
 			(at 67.31 64.77 0)
 			(effects
 				(font
@@ -6410,82 +6189,6 @@
 			(project "PCB"
 				(path "/0da9c021-1e1e-4699-b3a6-31bc4dd13bc3/e8735eb0-c533-47ac-8578-e0e86fdb4837"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 36.83 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf08627f-6f3f-4642-ba8d-7b61d69d5a9c")
-		(property "Reference" "D3"
-			(at 36.322 62.738 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Green"
-			(at 36.322 65.278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 36.83 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 36.83 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f24c5c75-d96f-4711-99f2-1e8d09327d25")
-		)
-		(pin "2"
-			(uuid "a56069c0-a247-4ddf-ba20-97167b4971d8")
-		)
-		(instances
-			(project "PCB"
-				(path "/0da9c021-1e1e-4699-b3a6-31bc4dd13bc3/e8735eb0-c533-47ac-8578-e0e86fdb4837"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6517,7 +6220,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Nhlamolo.:R0402"
 			(at 232.41 45.72 0)
 			(effects
 				(font
@@ -6526,7 +6229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705924167974912"
 			(at 232.41 45.72 0)
 			(effects
 				(font
@@ -6537,6 +6240,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 232.41 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C11702"
+			(at 232.41 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6586,7 +6298,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Nhlamolo.:R0805"
 			(at 232.41 73.66 0)
 			(effects
 				(font
@@ -6595,7 +6307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579706637797543936"
 			(at 232.41 73.66 0)
 			(effects
 				(font
@@ -6605,6 +6317,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 232.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C17772"
 			(at 232.41 73.66 0)
 			(effects
 				(font
@@ -6647,7 +6368,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 83.82 53.3335 0)
 			(effects
 				(font
@@ -6656,7 +6377,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Nhlamolo.:C1206"
 			(at 81.28 52.07 0)
 			(effects
 				(font
@@ -6665,7 +6386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707359440130048"
 			(at 81.28 52.07 0)
 			(effects
 				(font
@@ -6675,6 +6396,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 81.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C13585"
 			(at 81.28 52.07 0)
 			(effects
 				(font
@@ -6716,7 +6446,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 54.6163 29.21 90)
 			(effects
 				(font
@@ -6724,7 +6454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Nhlamolo.:C1206"
 			(at 54.61 33.02 0)
 			(effects
 				(font
@@ -6733,7 +6463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707359440130048"
 			(at 54.61 33.02 0)
 			(effects
 				(font
@@ -6744,6 +6474,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 54.61 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C13585"
+			(at 54.61 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
