@@ -6,7 +6,7 @@
 	(property "Reference" ""
 		(at 0 -2.5119 0)
 		(layer "F.SilkS")
-		(uuid "b7035e1e-ff34-4eae-a2c6-5eb09af0b8fd")
+		(uuid "b1ad25eb-c3fe-4f8a-845a-971c13668dab")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17,7 +17,7 @@
 	(property "Value" "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
 		(at 0 2.74 0)
 		(layer "F.Fab")
-		(uuid "533fd99d-662a-48cc-a1fc-fa3b486e46f4")
+		(uuid "afde813a-e810-4f8f-bf68-ba02402af42c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25,11 +25,11 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707343598243840"
+	(property "Datasheet" "https://www.ti.com/cn/lit/ds/symlink/tps22917.pdf?ts=1743062159458&ref_url=https%253A%252F%252Fjlcpcb.com%252F"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dae7d281-c7e9-499d-a524-9ab513a33c3f")
+		(uuid "88b25bdf-3fbe-4d49-b026-b811c9fbbfbf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "86b03223-225b-452d-88b7-ddc9fb02987c")
+		(uuid "177718ac-001e-411f-8acc-501c1cf30c53")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 0)
 		(layer "Cmts.User")
 		(hide yes)
-		(uuid "a38ba509-37d5-4004-9f90-b13724730aa3")
+		(uuid "c50242b7-6f7b-46ed-a92d-e8330e7609db")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,7 +65,7 @@
 		(at 0 0 0)
 		(layer "Cmts.User")
 		(hide yes)
-		(uuid "4dcbfcc5-d9e3-4155-87eb-e8bed902b457")
+		(uuid "f091c4b1-a1af-4d2b-bc11-3844dc50edda")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -81,7 +81,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "bd10a635-5417-4c44-bb50-4e3d37788a45")
+		(uuid "25d54874-e894-42ab-93d3-d2308fd05236")
 	)
 	(fp_line
 		(start -0.9 1.5501)
@@ -91,7 +91,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "2d29d180-6fd4-4ed2-baef-ebf1d16122f0")
+		(uuid "71a5012d-859f-46d5-b564-f1ad6170a59d")
 	)
 	(fp_circle
 		(center 1.397 1.651)
@@ -102,7 +102,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "1f3a7e83-abb8-433f-9141-5fdc0f241b93")
+		(uuid "060ca0ae-e1fb-4bfd-8ff2-2f20f820f3f9")
 	)
 	(fp_circle
 		(center 1.4 0.95)
@@ -113,7 +113,7 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "9315bfcc-1cf4-4e94-8296-4ac5bfc5cb17")
+		(uuid "727c2bb8-ee29-4a21-969a-0edf04f42554")
 	)
 	(fp_circle
 		(center 1.4 1.4501)
@@ -124,7 +124,7 @@
 		)
 		(fill no)
 		(layer "User.5")
-		(uuid "7501075a-f67d-4070-ae49-dadac473550f")
+		(uuid "39bef896-6f44-4fba-9020-5fc712d1ec2e")
 	)
 	(pad "1" smd rect
 		(at 1.35 0.95)
@@ -133,7 +133,7 @@
 		(solder_mask_margin 0.051)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "a4ffc7ae-cd51-4eaf-a94a-8f0176058f98")
+		(uuid "093e41e7-794e-4f9b-a9b7-8acb03865f35")
 	)
 	(pad "2" smd rect
 		(at 1.35 0)
@@ -142,7 +142,7 @@
 		(solder_mask_margin 0.051)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "948565cb-7f81-43fc-ad30-3b94f99d0700")
+		(uuid "5ef03c29-5c7d-4cc1-863c-7f4efd9dba8e")
 	)
 	(pad "3" smd rect
 		(at 1.35 -0.95)
@@ -151,7 +151,7 @@
 		(solder_mask_margin 0.051)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "e65a80e9-4331-41c5-995c-a6bd86d06f60")
+		(uuid "c6cfb68b-88d0-470f-85eb-81ab49621e21")
 	)
 	(pad "4" smd rect
 		(at -1.35 -0.95)
@@ -160,7 +160,7 @@
 		(solder_mask_margin 0.051)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "3dbd5980-e5cb-4838-93b4-07b13b8e8700")
+		(uuid "943bb0e1-3cdc-4716-a186-04bb76ea2008")
 	)
 	(pad "5" smd rect
 		(at -1.35 0)
@@ -169,7 +169,7 @@
 		(solder_mask_margin 0.051)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "83ff9934-6653-4f76-9d5b-66d19fbc10fe")
+		(uuid "1c131302-efb7-4d85-a4ff-2cbeba2533c8")
 	)
 	(pad "6" smd rect
 		(at -1.35 0.95)
@@ -178,13 +178,13 @@
 		(solder_mask_margin 0.051)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "fba8d530-ca28-47fb-9e72-f39bdac9b70b")
+		(uuid "1ff552bd-333c-4130-baa3-c2c9c495d141")
 	)
 	(zone
 		(net 0)
 		(net_name "")
 		(layer "User.3")
-		(uuid "e7b08773-6433-44ec-b04a-073b2c22fea9")
+		(uuid "368995b3-ac95-4d27-b7cc-30d557b7eaa3")
 		(hatch edge 0.5)
 		(priority 100)
 		(connect_pads yes
@@ -213,7 +213,7 @@
 		(net 0)
 		(net_name "")
 		(layer "User.4")
-		(uuid "afdcb80f-7025-44f4-8ed5-39efea1bc559")
+		(uuid "c9e675ae-74b9-4155-9ec8-44991565e6c2")
 		(hatch edge 0.5)
 		(priority 100)
 		(connect_pads
@@ -246,7 +246,7 @@
 		(net 0)
 		(net_name "")
 		(layer "User.4")
-		(uuid "86c12e19-60ee-4955-9a29-f8e10606397e")
+		(uuid "66d3bd8f-f277-4cb8-83a8-4a1aea2a0e65")
 		(hatch edge 0.5)
 		(priority 100)
 		(connect_pads
@@ -279,7 +279,7 @@
 		(net 0)
 		(net_name "")
 		(layer "User.4")
-		(uuid "1c274540-4268-4a0b-8bd3-f9d83c467558")
+		(uuid "ad16faac-dad7-4c6a-bfab-e1bd8142cf39")
 		(hatch edge 0.5)
 		(priority 100)
 		(connect_pads
@@ -312,7 +312,7 @@
 		(net 0)
 		(net_name "")
 		(layer "User.4")
-		(uuid "e4c10c79-1bc6-40f9-917c-a0ca9ef130ef")
+		(uuid "9aa3e8a5-2791-41c6-a8df-be7eae91b67a")
 		(hatch edge 0.5)
 		(priority 100)
 		(connect_pads yes
@@ -341,7 +341,7 @@
 		(net 0)
 		(net_name "")
 		(layer "User.4")
-		(uuid "553b54ab-9086-428a-8336-ad13e8d2006d")
+		(uuid "f30d82c0-14b2-4ff1-8abc-764dcf8b7c96")
 		(hatch edge 0.5)
 		(priority 100)
 		(connect_pads yes
@@ -370,7 +370,7 @@
 		(net 0)
 		(net_name "")
 		(layer "User.4")
-		(uuid "7c901e58-49ee-478c-94d9-f57c7c0b66ec")
+		(uuid "0d5104f4-7b6d-4150-b8b3-8521b03c115c")
 		(hatch edge 0.5)
 		(priority 100)
 		(connect_pads yes
@@ -399,7 +399,7 @@
 		(net 0)
 		(net_name "")
 		(layer "User.4")
-		(uuid "0a20e27e-e546-47c7-ac5a-cbe8209e8e87")
+		(uuid "9dcb6cef-ea3a-4417-9dc1-ee9857b41fbc")
 		(hatch edge 0.5)
 		(priority 100)
 		(connect_pads yes
@@ -428,7 +428,7 @@
 		(net 0)
 		(net_name "")
 		(layer "User.4")
-		(uuid "fc45c7ba-96aa-4eed-8a86-0608ad9db120")
+		(uuid "553dd221-4fc1-495e-a28a-726e101708c8")
 		(hatch edge 0.5)
 		(priority 100)
 		(connect_pads yes
@@ -457,7 +457,7 @@
 		(net 0)
 		(net_name "")
 		(layer "User.4")
-		(uuid "e0c3c32d-e146-4624-9be1-5976450ba373")
+		(uuid "60fb1475-d059-47dc-bb45-1906aedf6229")
 		(hatch edge 0.5)
 		(priority 100)
 		(connect_pads yes
@@ -486,7 +486,7 @@
 		(net 0)
 		(net_name "")
 		(layer "User.4")
-		(uuid "a88fd43e-a041-4674-8102-0b224f8fea1d")
+		(uuid "5e359af3-ce65-4603-a739-d17d0e0b45c6")
 		(hatch edge 0.5)
 		(priority 100)
 		(connect_pads
@@ -519,7 +519,7 @@
 		(net 0)
 		(net_name "")
 		(layer "User.4")
-		(uuid "d2f0704f-85ea-4896-adff-6ff231df9c4a")
+		(uuid "d85b8a3f-b4b6-4c80-8533-622ee71f0343")
 		(hatch edge 0.5)
 		(priority 100)
 		(connect_pads
@@ -552,7 +552,7 @@
 		(net 0)
 		(net_name "")
 		(layer "User.4")
-		(uuid "4f21549f-5bea-4c14-be1a-af3d93ad3eeb")
+		(uuid "6c6eb95f-7ada-43bc-865f-c2cfdde88fa2")
 		(hatch edge 0.5)
 		(priority 100)
 		(connect_pads
