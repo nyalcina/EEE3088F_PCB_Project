@@ -1,4 +1,4 @@
-24749550172739115
+24758265878618541
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65856,6 +65856,27 @@ DRV8833PWPR
 17
 17
 Library
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP
+
+
+0
+9
+9
+Library
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-1
+
+
+0
+9
+9
+Library
+ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP
+
+
+0
+11
+11
+Library
 IC_DRV8833PWPR
 
 
@@ -65870,12 +65891,26 @@ INA219AIDCNR
 8
 8
 Library
+LED0603-RD
+
+
+0
+2
+2
+Library
 R2512
 
 
 0
 2
 2
+Library
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR
+
+
+0
+6
+6
 Library
 SW-TH_1MS1T1B1M1QES-5
 
