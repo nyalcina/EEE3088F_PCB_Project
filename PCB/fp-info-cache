@@ -1,4 +1,18 @@
-24758265878618541
+24770467586291583
+Amos
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP
+
+
+0
+9
+9
+Amos
+Untitled
+
+
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65848,97 +65862,62 @@ Yellow 5381 Series LED
 0
 2
 2
-Library
-DRV8833PWPR
-
-
-0
-17
-17
-Library
+Mix
 ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP
 
 
 0
 9
 9
-Library
-ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-1
-
-
-0
-9
-9
-Library
+Mix
 ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP
 
 
 0
 11
 11
-Library
+Mix
 IC_DRV8833PWPR
 
 
 0
 17
 17
-Library
+Mix
 INA219AIDCNR
 
 
 0
 8
 8
-Library
-LED0603-RD
-
-
-0
-2
-2
-Library
-R2512
-
-
-0
-2
-2
-Library
+Mix
 SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR
 
 
 0
 6
 6
-Library
+Mix
 SW-TH_1MS1T1B1M1QES-5
 
 
 0
 3
 3
-Library
-TPS22917DBVR
-
-
-0
-6
-6
-Library
+Mix
 TPS63020DSJR
 
 
 0
 23
 15
-Library
-Untitled
+Mix
+USB-C-SMD_TYPE-602-T3
 
 
 0
-0
-0
+10
+7
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -68690,6 +68669,76 @@ net tie
 0
 4
 4
+Nhlamolo.
+C1206
+
+
+0
+2
+2
+Nhlamolo.
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-1
+
+
+0
+9
+9
+Nhlamolo.
+ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP
+
+
+0
+11
+11
+Nhlamolo.
+LED0603-RD
+
+
+0
+2
+2
+Nhlamolo.
+R0402
+
+
+0
+2
+2
+Nhlamolo.
+R0603
+
+
+0
+2
+2
+Nhlamolo.
+R0805
+
+
+0
+2
+2
+Nhlamolo.
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR
+
+
+0
+6
+6
+Nhlamolo.
+USB-C-SMD_TYPE-602-T3
+
+
+0
+10
+7
+Nhlamolo.
+Untitled
+
+
+0
+0
+0
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
