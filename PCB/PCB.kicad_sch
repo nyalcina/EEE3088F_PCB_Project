@@ -5677,6 +5677,16 @@
 		)
 		(uuid "a922b5c3-e3ea-4785-a177-5e172518da2a")
 	)
+	(text "Add mounting holes"
+		(exclude_from_sim no)
+		(at 379.222 175.006 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "b78ec9f7-7db6-41c4-9ba0-3e9fa6d7a391")
+	)
 	(text "Charging Circuit "
 		(exclude_from_sim no)
 		(at 222.504 179.578 0)
@@ -9593,7 +9603,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 224.79) (xy 88.9 227.33)
+			(xy 88.9 222.25) (xy 88.9 227.33)
 		)
 		(stroke
 			(width 0)
@@ -10411,16 +10421,6 @@
 		)
 		(uuid "9c04f234-0c44-46b9-a3b0-434082094e74")
 	)
-	(label "VBUS"
-		(at 88.9 224.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a663f997-53a5-4bf0-84d0-f574baae44b6")
-	)
 	(label "5V_Out"
 		(at 256.54 27.94 0)
 		(effects
@@ -10646,6 +10646,28 @@
 		(uuid "0133e264-2500-4551-a823-8f23f538e19a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 161.2226 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "High_Voltage_(9V)"
+		(shape input)
+		(at 88.9 222.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04deab2d-f544-4f2e-bd04-bf385855f948")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.0603 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12110,7 +12132,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 407.67 88.9) (xy 293.37 88.9) (xy 293.37 162.56) (xy 293.37 165.1) (xy 407.67 165.1) (xy 407.67 90.17)
+				(xy 12.065 80.3275) (xy 104.14 80.01) (xy 102.87 12.065) (xy 12.7 12.7)
 			)
 			(stroke
 				(width 0)
@@ -12119,7 +12141,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 0f0c2692-2004-4aec-a6dd-603bad4afc62)
+			(uuid 349059e8-b2b7-45c1-ab83-6d1db275a455)
 		)
 	)
 	(rule_area
@@ -12134,7 +12156,37 @@
 			(fill
 				(type none)
 			)
-			(uuid 14229702-e82e-4f30-b441-8bc451a178b2)
+			(uuid 53e25c93-fb32-4272-a117-b4f7f3d91916)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 15.24 203.2) (xy 129.54 203.2) (xy 129.54 276.86) (xy 129.54 279.4) (xy 15.24 279.4) (xy 15.24 204.47)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 5574cadb-45b0-4881-9e7a-a6003f7dfffb)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 163.83 168.91) (xy 299.72 167.64) (xy 299.72 240.03) (xy 299.72 278.13) (xy 163.83 278.13) (xy 163.83 170.18)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 88a8ae39-fb68-44ef-ae5f-0ad273bd2da7)
 		)
 	)
 	(rule_area
@@ -12150,13 +12202,13 @@
 			(fill
 				(type none)
 			)
-			(uuid 31e95af9-0822-4c86-a1a3-4606f244decf)
+			(uuid 8d93a3e8-f16e-42b9-8e00-e96b6bc44c3b)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 12.065 80.3275) (xy 104.14 80.01) (xy 102.87 12.065) (xy 12.7 12.7)
+				(xy 407.67 88.9) (xy 293.37 88.9) (xy 293.37 162.56) (xy 293.37 165.1) (xy 407.67 165.1) (xy 407.67 90.17)
 			)
 			(stroke
 				(width 0)
@@ -12165,7 +12217,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 36f4e264-4c2c-4523-8950-8126090bcd46)
+			(uuid 949d693a-cb27-46b3-bc7e-0b7dd9e4c7ea)
 		)
 	)
 	(rule_area
@@ -12180,37 +12232,7 @@
 			(fill
 				(type none)
 			)
-			(uuid a5b7f8cb-7b41-4e01-8f28-5fdd21fb437f)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 15.24 203.2) (xy 129.54 203.2) (xy 129.54 276.86) (xy 129.54 279.4) (xy 15.24 279.4) (xy 15.24 204.47)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill
-				(type none)
-			)
-			(uuid c0bf0ec6-edbe-4076-81da-c5e04a3cf25b)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 163.83 168.91) (xy 299.72 167.64) (xy 299.72 240.03) (xy 299.72 278.13) (xy 163.83 278.13) (xy 163.83 170.18)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill
-				(type none)
-			)
-			(uuid f0a0880a-5976-4417-8063-341120072d04)
+			(uuid e34233c4-879b-496f-a25d-54bf8ed01235)
 		)
 	)
 	(symbol
@@ -22194,7 +22216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_JWPF_B02B-JWPF-SK-R_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 360.68 220.98 0)
 			(effects
 				(font
