@@ -4430,8 +4430,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 6.35 0)
+			(property "Reference" "U3"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4439,14 +4439,14 @@
 				)
 			)
 			(property "Value" "TPS22917DBV"
-				(at 2.54 6.35 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(property "Footprint" "Mix:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
 				(at 0 12.7 0)
 				(effects
 					(font
@@ -4465,6 +4465,15 @@
 				)
 			)
 			(property "Description" "1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" " C2681320"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4523,7 +4532,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_in line
 					(at -10.16 0 0)
 					(length 2.54)
 					(name "CT"
@@ -5017,6 +5026,205 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TPS22917DBV_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U5"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS22917DBV"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Mix:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps22917.pdf"
+				(at 1.27 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" " C2681320"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "high-side power distribution switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS22917DBV_1_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS22917DBV_1_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "CT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "ON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "QOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5835,6 +6043,12 @@
 		(uuid "2c662e80-090e-4e05-8961-1d7e13e20871")
 	)
 	(junction
+		(at 45.72 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e0c064a-6679-42b0-b7e2-dd207a55635c")
+	)
+	(junction
 		(at 69.85 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5893,12 +6107,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6081e0ca-4dc1-479e-a089-c74b009f7a4e")
-	)
-	(junction
-		(at 45.72 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6432392d-d58e-4416-9134-bc3be22f8696")
 	)
 	(junction
 		(at 45.72 97.79)
@@ -5985,12 +6193,6 @@
 		(uuid "93b79888-a4e3-4e10-bb7f-f1d22839c0f9")
 	)
 	(junction
-		(at 45.72 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b5dcdf7-4e70-46a4-a66e-9ac5230b48ac")
-	)
-	(junction
 		(at 71.12 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6049,6 +6251,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5626fd9-1f84-4420-9753-3bdf00d1a73c")
+	)
+	(junction
+		(at 45.72 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6d97345-3444-428b-ad4b-a0701d1033c6")
 	)
 	(junction
 		(at 231.14 231.14)
@@ -7014,16 +7222,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 44.45) (xy 49.53 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31c8c344-521f-43ad-9424-0afe52c826a8")
-	)
-	(wire
-		(pts
 			(xy 191.77 68.58) (xy 191.77 69.85)
 		)
 		(stroke
@@ -7324,6 +7522,26 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 39.37) (xy 49.53 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435eabe4-237e-4b26-853f-3a7b84b7cb49")
+	)
+	(wire
+		(pts
+			(xy 45.72 44.45) (xy 49.53 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45469ee9-5200-4554-9c35-299fdbe304b1")
+	)
+	(wire
+		(pts
 			(xy 238.76 57.15) (xy 238.76 59.69)
 		)
 		(stroke
@@ -7534,7 +7752,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 44.45) (xy 45.72 44.45)
+			(xy 33.02 44.45) (xy 45.72 44.45)
 		)
 		(stroke
 			(width 0)
@@ -7714,17 +7932,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 39.37) (xy 49.53 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60133421-a8f2-475b-a0e2-d59fa933433a")
-	)
-	(wire
-		(pts
-			(xy 36.83 39.37) (xy 45.72 39.37)
+			(xy 33.02 39.37) (xy 45.72 39.37)
 		)
 		(stroke
 			(width 0)
@@ -10382,7 +10590,7 @@
 		)
 		(uuid "ff66d904-c560-4dd4-b5bb-f4eeba90f940")
 	)
-	(label "M4AB2"
+	(label "M4BO2"
 		(at 135.89 186.69 0)
 		(effects
 			(font
@@ -10392,7 +10600,7 @@
 		)
 		(uuid "05e9bca3-f230-4746-918b-35437fed2939")
 	)
-	(label "M4AB1"
+	(label "M4BO1"
 		(at 138.43 137.16 0)
 		(effects
 			(font
@@ -10463,7 +10671,7 @@
 		(uuid "47b1db9e-dca9-426f-8c60-efb4eba3bb65")
 	)
 	(label "IN-"
-		(at 36.83 44.45 0)
+		(at 33.02 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10532,6 +10740,16 @@
 		)
 		(uuid "5d92ca5c-1935-429c-80fd-0d5000750bef")
 	)
+	(label "M2BO1"
+		(at 66.04 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e0a17c3-9581-4fbd-ab7c-8573e8cf034c")
+	)
 	(label "3V3_Out"
 		(at 224.79 262.89 180)
 		(effects
@@ -10543,7 +10761,7 @@
 		(uuid "654c0ac1-1e93-49a7-9407-93b327fbf112")
 	)
 	(label "IN+"
-		(at 36.83 39.37 0)
+		(at 33.02 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10551,16 +10769,6 @@
 			(justify left bottom)
 		)
 		(uuid "741b311c-da82-4302-a534-3a5b1111510d")
-	)
-	(label "M2AO1"
-		(at 66.04 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "75c2d071-dcf1-4306-b564-cfe5d585b3b5")
 	)
 	(label "SEN2"
 		(at 99.06 125.73 0)
@@ -10572,7 +10780,7 @@
 		)
 		(uuid "7e5d58fb-bf46-45e6-b560-4c5be26b0647")
 	)
-	(label "M4AB1"
+	(label "M4BO1"
 		(at 138.43 184.15 0)
 		(effects
 			(font
@@ -10592,7 +10800,7 @@
 		)
 		(uuid "82c88be2-aa44-4dfa-949d-f363c91a63b8")
 	)
-	(label "M4AB2"
+	(label "M4BO2"
 		(at 138.43 139.7 0)
 		(effects
 			(font
@@ -10662,16 +10870,6 @@
 		)
 		(uuid "b8359e4c-545a-4e7a-a8ce-4d476b56fe97")
 	)
-	(label "M2AO2"
-		(at 66.04 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b92e4295-2dd2-4eab-a705-6a4ee403552c")
-	)
 	(label "3V3_Out"
 		(at 80.01 222.25 0)
 		(effects
@@ -10681,6 +10879,16 @@
 			(justify left bottom)
 		)
 		(uuid "c5507428-551c-4e32-b6f2-3c04e80f0d99")
+	)
+	(label "M2BO2"
+		(at 66.04 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4ebd1a2-e9b4-475e-8f9d-c6bf4d44505f")
 	)
 	(label "CC2"
 		(at 99.06 247.65 0)
@@ -12485,8 +12693,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 13.335 198.755) (xy 93.345 198.755) (xy 161.6075 198.755) (xy 162.2425 79.375) (xy 92.075 79.375)
-				(xy 13.335 79.375) (xy 13.335 113.03)
+				(xy 407.67 88.9) (xy 293.37 88.9) (xy 293.37 162.56) (xy 293.37 165.1) (xy 407.67 165.1) (xy 407.67 90.17)
 			)
 			(stroke
 				(width 0)
@@ -12495,22 +12702,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 05dcedc2-c2e1-4b13-b63f-c728fe69a8f3)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 12.065 80.3275) (xy 104.14 80.01) (xy 102.87 12.065) (xy 12.7 12.7)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 0b2cd6eb-28b6-40ef-99e8-6638f62115d0)
+			(uuid 18c1cc91-0f48-4e45-9943-90cbebccdcca)
 		)
 	)
 	(rule_area
@@ -12526,52 +12718,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 1dfe09e7-717b-49b7-94f7-9492800b9051)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 163.83 168.91) (xy 299.72 167.64) (xy 299.72 240.03) (xy 299.72 278.13) (xy 163.83 278.13) (xy 163.83 170.18)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 4533c25b-7a33-4ca8-93ed-d0a10dfe0f29)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 15.24 203.2) (xy 129.54 203.2) (xy 129.54 276.86) (xy 129.54 279.4) (xy 15.24 279.4) (xy 15.24 204.47)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 80cc95d1-eb6b-4a3c-b77c-a27bde59b480)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 407.67 88.9) (xy 293.37 88.9) (xy 293.37 162.56) (xy 293.37 165.1) (xy 407.67 165.1) (xy 407.67 90.17)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 925cd9bf-767a-47a3-9694-3ea15736e075)
+			(uuid 1c1169bc-67b7-4358-9308-9f5aa27ae6b1)
 		)
 	)
 	(rule_area
@@ -12586,7 +12733,68 @@
 			(fill
 				(type none)
 			)
-			(uuid c9de8348-9b1f-4733-9f41-f298351755c4)
+			(uuid 29c2dcf7-d43b-4e7b-b81d-128739fed3b1)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 12.065 80.3275) (xy 104.14 80.01) (xy 102.87 12.065) (xy 12.7 12.7)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 2b19a724-22ae-43bf-b34d-bf7f1fff0b66)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 163.83 168.91) (xy 299.72 167.64) (xy 299.72 240.03) (xy 299.72 278.13) (xy 163.83 278.13) (xy 163.83 170.18)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 5715d7c4-4487-42d0-8aca-30e730fc5e57)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 15.24 203.2) (xy 129.54 203.2) (xy 129.54 276.86) (xy 129.54 279.4) (xy 15.24 279.4) (xy 15.24 204.47)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 6a949e82-39a2-49fa-9e1b-4b005b0dee46)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 13.335 198.755) (xy 93.345 198.755) (xy 161.6075 198.755) (xy 162.2425 79.375) (xy 92.075 79.375)
+				(xy 13.335 79.375) (xy 13.335 113.03)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 7ee1a577-2dc1-49b1-b5b3-55b646811211)
 		)
 	)
 	(symbol
@@ -15248,7 +15456,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C2960770"
+		(property "LCSC" "C3013347"
 			(at 331.47 190.5 0)
 			(effects
 				(font
@@ -17357,7 +17565,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 68.58 20.3262 0)
 			(effects
 				(font
@@ -17679,7 +17887,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C2960770"
+		(property "LCSC" "C3013347"
 			(at 325.12 190.5 0)
 			(effects
 				(font
@@ -20100,6 +20308,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 45.72 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95d63c09-2ea7-470b-86d5-352aae5fbf96")
+		(property "Reference" "C8"
+			(at 40.894 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 39.624 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 45.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 45.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C14663"
+			(at 45.72 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5b73e48-4b3c-4e1d-9392-82abdc9a6d0d")
+		)
+		(pin "2"
+			(uuid "f0bad0da-7ad8-4778-b123-a41e13ca5ca7")
+		)
+		(instances
+			(project "PCB"
+				(path "/0da9c021-1e1e-4699-b3a6-31bc4dd13bc3"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 223.52 69.85 0)
 		(unit 1)
@@ -21450,84 +21736,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 45.72 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b73a2dd7-1db9-466f-b4c7-fa0b34e98c31")
-		(property "Reference" "C4"
-			(at 40.894 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 39.37 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 45.72 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586178237072617472"
-			(at 45.72 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 45.72 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5673"
-			(at 45.72 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "16e8ae92-951d-4a70-8435-47fe7b62148b")
-		)
-		(pin "2"
-			(uuid "fac6a6b0-0d34-45ba-a642-20612a1d3b35")
-		)
-		(instances
-			(project "PCB"
-				(path "/0da9c021-1e1e-4699-b3a6-31bc4dd13bc3"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 158.75 27.94 0)
 		(unit 1)
@@ -22264,6 +22472,7 @@
 		)
 	)
 	(symbol
+		(lib_name "TPS22917DBV_1")
 		(lib_id "Power_Management:TPS22917DBV")
 		(at 226.06 146.05 0)
 		(unit 1)
@@ -23018,84 +23227,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 16.51 111.76 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df26b073-4714-4bdb-ad96-d990e8103d31")
-		(property "Reference" "C18"
-			(at 22.352 113.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 23.622 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 16.51 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8568525238768373760"
-			(at 16.51 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 16.51 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23630"
-			(at 16.51 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7d5db46-a482-4052-930f-c98a946144cc")
-		)
-		(pin "2"
-			(uuid "350068e9-8f0c-4f80-8bbd-dcee7b176065")
-		)
-		(instances
-			(project "PCB"
-				(path "/0da9c021-1e1e-4699-b3a6-31bc4dd13bc3"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 71.12 105.41 0)
 		(mirror y)
@@ -23176,6 +23307,164 @@
 			(project ""
 				(path "/0da9c021-1e1e-4699-b3a6-31bc4dd13bc3"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 91.44 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df800059-1d0c-4931-9339-cc302988f3b5")
+		(property "Reference" "C9"
+			(at 93.98 110.4962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 93.98 113.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C14663"
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8d6ee56-d373-46e2-9010-1c20494d6eae")
+		)
+		(pin "2"
+			(uuid "f09dce66-0dfe-4926-ba0a-79e7fc166875")
+		)
+		(instances
+			(project "PCB"
+				(path "/0da9c021-1e1e-4699-b3a6-31bc4dd13bc3"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 16.51 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df9ab3c8-6a7c-4bea-8a51-a04ef924b3c5")
+		(property "Reference" "C11"
+			(at 19.05 110.4962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 19.05 113.0362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 16.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 16.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C14663"
+			(at 16.51 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eac0aec5-0e66-450a-ae0f-2e24d36c79af")
+		)
+		(pin "2"
+			(uuid "68c8fba5-204c-4c0c-a3b1-871ac2402eca")
+		)
+		(instances
+			(project "PCB"
+				(path "/0da9c021-1e1e-4699-b3a6-31bc4dd13bc3"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -23773,84 +24062,6 @@
 			(project ""
 				(path "/0da9c021-1e1e-4699-b3a6-31bc4dd13bc3"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 91.44 111.76 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec36796d-3023-4dc1-af6f-33ee29b6081f")
-		(property "Reference" "C20"
-			(at 97.282 113.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 98.552 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8568525238768373760"
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23630"
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3c90681-6c80-47fd-8c0f-449f5b278d1a")
-		)
-		(pin "2"
-			(uuid "ac928d0a-56e2-413d-972f-129d2993dab2")
-		)
-		(instances
-			(project "PCB"
-				(path "/0da9c021-1e1e-4699-b3a6-31bc4dd13bc3"
-					(reference "C20")
 					(unit 1)
 				)
 			)
